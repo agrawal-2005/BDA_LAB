@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+
+body {
+	background-color: #f2f2f2;
+	background: linear-gradient(135deg, #4d5f65, #504855);
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #333;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+}
+
+nav {
+	display: flex;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+	margin-left: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color:white;
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+	color: #007bff;
+}
+
+main {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"], textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0062cc;
+}
+.form-div{
+    width: 50%;
+    
+}
+
+.popup-confirm{
+    width: 50%;
+    height: fit-content;
+    position: fixed;
+    background-color: white;
+    padding: 15px;
+    border:5px solid black;
+    border-radius: 20px ;
+    box-sizing: border-box;
+    /* box-shadow: 5px 10px #888888; */
+    display: none;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    z-index: 15;
+    
+  }
+  .btn{
+      display: inline;
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 5px;
+      border: none;
+      background-color: #007bff;
+      color: #fff;
+      cursor: pointer;
+  }
+  .cancel-button{
+    margin:1rem 0 1rem 12rem;
+  }
+  .confirm-button{
+    margin:1rem 0 1rem 10rem;
+  }
+
+  .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin: 2rem 0 0 23rem;
+    
+}
+  
+  .active, .collapsible:hover {
+    background-color: white;
+    color: black;
+}
+  
+  .content {
+    border-radius: 20px;
+    padding: 20px 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    margin: 2rem 0 0 23rem;
+}
+.go_back{
+  text-decoration: none;
+  margin-left: 3rem;
+}
+
+.blur { filter: blur(5px); }

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(135deg, #4d5f65, #504855);
+}
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #333;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	margin: 0;
+    color: white;
+
+}
+
+nav {
+	display: flex;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+	margin-left: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color:white;
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+	color: #6c86a2;
+    transform: scale(1.1,1.1);
+}
+
+
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+section h2 {
+	margin-top: 0;
+}
+
+table {
+	width: 98%;
+	border-collapse: collapse;
+}
+
+table th, table td {
+	padding: 10px;
+	border: 1px solid #ccc;
+	text-align: left;
+}
+
+table th {
+	background-color: #333;
+	color: #fff;
+}
+
+footer {
+    
+    
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px 20px;
+}
+
+/* Interactive CSS styles */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    min-width: 600px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+}
+
+/* Padding and text alignment */
+td, th {
+    padding: 12px 15px;
+    text-align: center;
+    }
+    
+    /* Table Header background and text color */
+    th {
+    background-color: #6c86a2;
+    color: #fff;
+    }
+
+
+    
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+    }
+    
+    
+    tbody tr:hover {
+    background-color: #6c86a2;
+    color: #fff;
+    }
+    
+   
+    td {
+    border-bottom: 1px solid #ddd;
+    }
+    
+   
+    td:last-child {
+    border-right: 0;
+    }
+
+
+    
+td:first-child {
+    border-left: 0;
+    }
+    
+    
+    td:not(:last-child):not(:first-child) {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    }

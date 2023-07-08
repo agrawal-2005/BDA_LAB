@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+.dashboard:hover {
+	background-color: blueviolet;
+}
+
+.projects:hover {
+	background-color: blueviolet;
+}
+
+.datasets:hover {
+	background-color: blueviolet;
+}
+
+.users:hover {
+	background-color: blueviolet;
+}
+
+
+.Dashboard:hover {
+	background-color: green;
+}
+
+.Projects:hover {
+	background-color: green;
+}
+
+.Datasets:hover {
+	background-color: green;
+}
+
+.Users:hover {
+	background-color: green;
+}
+
+
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #2c3e50;
+	color: #fff;
+	padding: 10px 20px;
+}
+
+h1 {
+	margin: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+section h2 {
+	margin-top: 0;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table th, table td {
+	padding: 10px;
+	border: 1px solid #ccc;
+	text-align: left;
+}
+
+table th {
+	background-color: #2c3e50;
+	color: #fff;
+}
+
+footer {
+	background-color: #2c3e50;
+	color: #fff;
+	text-align: center;
+	padding: 10px 20px;
+}
+
+
+.container {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.container section {
+	flex-basis: 25%;
+	margin-left: 20px;
+}
+
+.container main {
+	flex-basis: 75%;
+}

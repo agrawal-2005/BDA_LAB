@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+
+body {
+	background-color: #f2f2f2;
+	background: linear-gradient(135deg, #4d5f65, #504855);
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #333;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a h1 {
+	margin: 0;
+    color: white;
+
+}
+
+nav {
+	display: flex;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+	margin-left: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color:white;
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+	color: #007bff;
+    transform: scale(1.1,1.1);
+}
+
+main {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+.section-admin {
+	flex-basis: calc(50% - 20px);
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+li span {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+th, td {
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+th {
+	background-color: #f2f2f2;
+	font-weight: bold;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select, textarea {
+padding: 10px;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+input[type="submit"] {
+background-color: #007bff;
+color: #fff;
+padding: 10px 20px;
+font-size: 16px;
+font-weight: bold;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+background-color: #0062cc;
+}
+
+.success-message, .error-message {
+margin-top: 20px;
+padding: 10px;
+border-radius: 5px;
+}
+
+.success-message {
+background-color: #d4edda;
+border: 1px solid #c3e6cb;
+color: #155724;
+}
+
+.error-message {
+background-color: #f8d7da;
+border: 1px solid #f5c6cb;
+color: #721c24;
+}
+
+.admin-btn{
+	background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  width: 97%;
+  
+}
+.admin-btn:hover{
+	cursor: pointer;
+	transform: scale(1.01,1.01);
+}
+
+.admin-control-panel{
+	margin-bottom: 2rem;
+}
+.notifications{
+	background-color: white;
+	width:77%;
+	
+	
+	border-radius: 20px;
+	height: 50px;
+	margin-left: 170px;
+	align-items: center;
+	text-align: center;
+	
+	
+
+}
+.notif-table{
+	border: none;
+}
+.view-details-btn{
+	background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  width: 50%;
+}
+
+.popup-confirm{
+    width: 50%;
+    height: fit-content;
+    position: fixed;
+    background-color: cornflowerblue;
+    padding: 15px;
+    border: black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 5px 10px black;
+    display: none;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    z-index: 15;
+    
+  }
+  .btn{
+      display: inline;
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 5px;
+      border: none;
+      background-color: #f2f2f2;
+      color: #fff;
+      cursor: pointer;
+  }
+  .cancel-button{
+    margin:1rem 0 1rem 12rem;
+  }
+  .confirm-button{
+	background-color: white;
+    margin:1rem 0 1rem 10rem;
+  }
+
+  .conference-admin{
+	max-height: 500px;
+	overflow: auto;
+	
+  }
+
+  footer {
+    
+    height: 50px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px 20px;
+}
+.counts{
+	width: 80%;
+	padding: 30px;
+	margin-top: 2rem;
+	margin-left: 8rem;
+}
