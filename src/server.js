@@ -18,7 +18,7 @@ function connection(){
     return mysql.createConnection({
         host: "localhost",
         user: "root",
-        password: "root",
+        password: "root || process.env.PASSWORD",
         database: "bda_lab"
     });
 }
@@ -101,9 +101,6 @@ app.post("/login",async function(req,res){
 
 
     }
-    
-
-
 })
 
 app.get("/feedback.html",function(req,res){
@@ -562,5 +559,4 @@ app.post("/coauthor",async function(req,res){
 app.listen(3000,function(){
     console.log("Server started on port 3000");
 });
-
 
