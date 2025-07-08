@@ -1,7 +1,6 @@
-````markdown
-# Project Title
-BDA_LAB
-## Table of Contents
+# 📊 Project Title - BDA_LAB
+
+## 📚 Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -10,32 +9,34 @@ BDA_LAB
 - [Contributing](#contributing)
 - [License](#license)
 
-## Installation
+---
 
-1. Clone the repository:
+## 🚀 Installation
+
+1. **Clone the repository**
    ```bash
    git clone https://github.com/agrawal-2005/BDA_LAB.git
-````
 
-2. Navigate to the project directory:
+2. **Navigate to the project directory**
 
    ```bash
-   cd your-repo-name
-   ```
-3. Install dependencies:
+   cd BDA_LAB
+
+3. **Install dependencies**
 
    ```bash
    npm install
-   ```
-4. Set up environment variables:
+
+4. **Set up environment variables**
 
    ```bash
    cp .env.example .env
-   ```
 
    Update the `.env` file with your configurations.
 
-## Usage
+---
+
+## 🧪 Usage
 
 To start the application, run:
 
@@ -43,9 +44,11 @@ To start the application, run:
 npm start
 ```
 
-Include more usage examples or CLI commands here if applicable.
+> You can add more usage examples or CLI commands here as needed.
 
-## Environment Variables
+---
+
+## ⚙️ Environment Variables
 
 Define the environment variables required in the `.env` file. Example:
 
@@ -54,9 +57,11 @@ Define the environment variables required in the `.env` file. Example:
 
 > 🔒 Keep your `.env` file secure and **do not** commit it to version control.
 
-## MySQL Commands
+---
 
-Common MySQL operations:
+## 🛢️ MySQL Commands
+
+### Common MySQL operations:
 
 1. **Start MySQL**
 
@@ -106,11 +111,13 @@ Common MySQL operations:
    DELETE FROM table_name WHERE condition;
    ```
 
-## Contributing
+---
+
+## 🤝 Contributing
 
 Contributions are welcome! Follow these steps:
 
-1. Fork the repo.
+1. Fork the repository.
 2. Create a new branch:
 
    ```bash
@@ -128,4 +135,8 @@ Contributions are welcome! Follow these steps:
    ```
 5. Open a Pull Request.
 
-## License
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
